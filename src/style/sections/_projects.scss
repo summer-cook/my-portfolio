@@ -1,6 +1,8 @@
 #projects {
   background-color: $white-color;
-  color: $dark-blue-text;
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  color: $white-color;
   margin-top: -15rem;
   padding-top: 15rem;
 
@@ -11,6 +13,7 @@
 
   .project-wrapper {
     margin-bottom: 15rem;
+    margin-top:10rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
