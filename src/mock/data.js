@@ -19,10 +19,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: "After years of working for marketing agencies and creating websites with templates, I realized I was always intrigued by code and felt driven to take my knowledge a step further.  I finally made the leap & committed to an immersive Full Stack Web Development bootcamp, LEARN Academy.",
+  paragraphTwo: 'My favorite things about being a developer are the constant opportunity to push the limits of my knowledge & the ability to learn something unique every day. I have worked in client-facing roles, and I know the importance of delivering results that captivate the end user. My branding and design background drives my interest in creating satisfying user experiences & beautifying the front end of applications.',
+  paragraphThree: ' My dream is to keep learning & growing as a developer by applying my knowledge in a challenging, collaborative role at a company that supports continual growth. Feel free to reach out to me to connect! ',
+  resume: '/SummerCook-Developer-Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,8 +30,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Wildlife Tracker App',
+    info: 'Full-stack app built with Ruby-on-Rails. Allows the user to track sightings of endangered species of the Pacific Northwest region. Full CRUD functionality & tests for each RESTful route written with RSPEC.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -59,32 +59,32 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Email Me',
+  email: 'summercook.dev@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/summbc/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/summer-cook',
     },
   ],
 };

@@ -62,16 +62,36 @@
 
 /* Resume Style */
 .cta-btn--resume {
+  color: white;
+  padding: 15px 30px;
+  border: 2px solid white;
+
+  &::after {
+    background: $secondary-color;
+  }
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/* Footer Style */
+.cta-btn--contact {
   color: $secondary-color;
   padding: 15px 30px;
   border: 2px solid $secondary-color;
 
   &::after {
-    background: $white-color;
+    background: $secondary-color;
   }
 
   &:hover {
-    color: $primary-color;
+    color: white;
     text-decoration: none;
 
     &::after {
