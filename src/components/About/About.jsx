@@ -53,10 +53,10 @@ const About = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
+                      className="cta-btn cta-btn--resume mx-auto"
                       href={resume}
                     >
-                      Resume
+                      My Resume
                     </a>
                   </span>
                 )}

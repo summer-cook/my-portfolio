@@ -29,30 +29,48 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'hotaliens.png',
+    title: 'Alien Tinder',
+    info: 'Full-stack app built with a React front-end and Ruby-on-Rails back-end, deployed on Heroku. Styled with bootstrap & custom CSS, graphics created on Canva.',
+    info2: 'CRUD functionality makes it possible to see, add, update, & delete alien "matches" from a database.',
+    url: 'https://alien-tinder.herokuapp.com/',
+    repo: 'https://github.com/summer-cook/alien-tinder', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'doggorandomizer.png',
+    title: 'Doggo Randomizer',
+    info: 'React.js app initialized with create-react-app and deployed on Netlify.',
+    info2: 'Written in Javascript/React and custom CSS. Fetches dog images from an external API by dogCEO.com.',
+    url: 'https://doggorandomizer.netlify.app/',
+    repo: 'https://github.com/summer-cook/dog-randomizer', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: 'Wildlife Tracker App',
-    info: 'Full-stack app built with Ruby-on-Rails. Allows the user to track sightings of endangered species of the Pacific Northwest region. Full CRUD functionality & tests for each RESTful route written with RSPEC.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Backend API built with Ruby-on-Rails. Allows the user to track sightings of endangered species of the Pacific Northwest region. Full CRUD functionality. ',
+    info2: 'Includes tests for each RESTful route written with RSPEC. (This photo was taken by me in North Cascades National Park, and I found it fitting! ☺ )',
+    url: 'https://github.com/summer-cook/wildlife-tracker-summer-cook',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'bareandbee.png',
+    title: 'Bare & Bee Brand Reboot',
+    info: 'Web design & branding project for a Esthetics business in Del Mar, CA.',
+    info2: 'Process included client interviews/current brand audit, photoshoots, social media aesthetics, web design with Squarespace and an integration with Square to provide increased brand cohesiveness.',
+    url: 'https://www.bareandbee.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'monadella.png',
+    title: 'Monadella Investments Website',
+    info: 'Web design project for a Boutique Real Estate Syndication firm. Designed with Divi theme on Wordpress.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://monadellainvestments.com/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
