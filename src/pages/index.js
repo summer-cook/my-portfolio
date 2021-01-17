@@ -12,9 +12,9 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
+        <title>{title || "Hi! I'm Summer Cook & I'm a Web Developer in San Diego, CA"}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta name="description" content={description || 'Check out my portfolio here! 🌻'} />
       </Helmet>
       <App />
     </>
