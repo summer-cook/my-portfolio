@@ -956,6 +956,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.12.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.10.3":
   version "7.10.3"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.10.3.tgz"
@@ -6489,12 +6496,12 @@ gatsby-plugin-page-creator@^2.3.12:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.3.4:
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.3.6.tgz"
-  integrity sha512-KEmgL5TxdMsMNm6p5jgz422p8qwogriDlm0WPgObFshR3fkAFtbqEX6FlZW0Vv8itt6tP3YbKHN4exxIA2Hc8g==
+gatsby-plugin-react-helmet@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.8.0.tgz#f7bda9378e21795f39d55fbea83a0458e737ff62"
+  integrity sha512-N3foQUlaA7S7hRHpUtM30eYfhaE/wfC5xJhZ2UJCeos/rRDA6RHEp4IGI+VIs6+4T4ClS9pM9jwg8TfcqNlAiQ==
   dependencies:
-    "@babel/runtime" "^7.10.3"
+    "@babel/runtime" "^7.12.5"
 
 gatsby-plugin-sass@^2.3.4:
   version "2.3.6"
@@ -11617,9 +11624,9 @@ react-bootstrap@^1.0.1:
     warning "^4.0.3"
 
 react-dev-utils@^4.2.3:
-  version "4.2.2"
-  resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-4.2.2.tgz"
-  integrity sha512-HwN0EE+9DS7wB0kKy6Bc5kUTUGUAOyZorJeb+ZGeTrxd1ZNwEJn1TfCRuNpRRa+Iu3VeYBcQ2pjuordJ4eqmfA==
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-4.2.3.tgz#5b42d9ea58d5e9e017a2f57a40a8af408a3a46fb"
+  integrity sha512-uvmkwl5uMexCmC0GUv1XGQP0YjfYePJufGg4YYiukhqk2vN1tQxwWJIBERqhOmSi80cppZg8mZnPP/kOMf1sUQ==
   dependencies:
     address "1.0.3"
     babel-code-frame "6.26.0"
