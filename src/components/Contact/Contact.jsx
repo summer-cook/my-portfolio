@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import Headshot from '../../images/headshot.png';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -13,7 +14,7 @@ const Contact = () => {
       <Container>
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
-        <img src="/headshot.png" alt="Hi there!"/>
+          <img src={Headshot} alt="Hi there!" />
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
