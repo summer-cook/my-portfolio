@@ -1,3 +1,11 @@
-To do for portfolio
-- add circle profile picture with border radius 50 at the bottom
-- add section for skills
+<h1> Check out my portfolio 🌻 </h1>
+
+<ul>
+  <li> Created using Gatsby.js React framework </li>
+  <li> Custom components added </li>
+  <li> Deployed on netlify </li>
+</ul>
+<br/><br/>
+<h2>
+<a href="https://summercook-dev.netlify.app/">See it live here!</a>
+  </h2>
