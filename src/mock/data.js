@@ -4,8 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Summer Cook | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description:
-    'Summer Cook is a skilled web-developer working remotely, currently in San Diego, CA.', // e.g: Welcome to my website
+  description: 'Check out my portfolio 🌻', // e.g: Welcome to my website
 };
 
 // HERO DATA
