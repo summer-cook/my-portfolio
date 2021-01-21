@@ -5,4 +5,8 @@
   <li> Custom components added </li>
   <li> Deployed on netlify </li>
 </ul>
+<br/><br/>
+<h2>
+<a href="https://summercook-dev.netlify.app/">See it live here!</a>
+  </h2>
 
