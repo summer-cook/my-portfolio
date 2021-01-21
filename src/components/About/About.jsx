@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-// import ResumeFile from '../../pdf/SummerCookDeveloper.pdf';
+import ResumeFile from '../../pdf/SummerCookDeveloper.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -47,7 +47,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume mx-auto"
-                      href="https://drive.google.com/file/d/1Ok9i3aYEtG-7_OGbNwMNYm7wtYuUOnDp/view?usp=sharing"
+                      href={ResumeFile}
                     >
                       My Resume
                     </a>
