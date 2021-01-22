@@ -12,11 +12,9 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Summer Cook, Web Developer'}</title>
+        <title>Summer Cook | Developer</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description} />
-
-        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+        <meta name="description" content={description || 'Built with React.js'} />
       </Helmet>
       <App />
     </>
