@@ -6,17 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { lang } = headData;
 
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Summer Cook, Web Developer'}</title>
+        <title>Summer Cook | Developer</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description} />
-
-        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+        <meta name="description" content="Check out my portfolio 🌻" />
       </Helmet>
       <App />
     </>

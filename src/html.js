@@ -3,7 +3,7 @@
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable jsx-a11y/html-has-lang */
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 export default function HTML({
   htmlAttributes,
@@ -17,6 +17,9 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
+        <title>Summer Cook | Developer</title>
+        <html lang="en" />
+        <meta name="description" content="Check out my portfolio :)" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
