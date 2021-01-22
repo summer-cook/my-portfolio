@@ -16,6 +16,7 @@ export default () => {
         <meta name="title" property="og:title" content="Summer Cook | Web Developer & Designer"></meta>
         <html lang={lang || 'en'} />
         <meta name="description" property="og:description" content="Check out my portfolio for more information :)"/>
+        <meta name="image" property="og:image" content="https://i.ibb.co/vjBS2Yw/summercookdev.png"/>
       </Helmet>
       <App />
     </>

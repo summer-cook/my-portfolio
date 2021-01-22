@@ -21,6 +21,7 @@ export default function HTML({
         <meta name="title" property="og:title" content="Summer Cook | Web Developer & Designer"></meta>
         <html lang="en" />
         <meta name="description" property="og:description" content="Check out my portfolio for more information :)"/>
+        <meta name="image" property="og:image" content="https://i.ibb.co/vjBS2Yw/summercookdev.png"/>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
