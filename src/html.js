@@ -17,9 +17,10 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <title>Summer Cook | Developer</title>
+        <title>Summer Cook | Web Developer & Designer</title>
+        <meta name="title" property="og:title" content="Summer Cook | Web Developer & Designer"></meta>
         <html lang="en" />
-        <meta name="description" content="Check out my portfolio :)" />
+        <meta name="description" property="og:description" content="Check out my portfolio for more information :)"/>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}

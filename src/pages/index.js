@@ -12,9 +12,10 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Summer Cook | Developer</title>
+        <title>Summer Cook | Web Developer & Designer</title>
+        <meta name="title" property="og:title" content="Summer Cook | Web Developer & Designer"></meta>
         <html lang={lang || 'en'} />
-        <meta name="description" content="Check out my portfolio 🌻" />
+        <meta name="description" property="og:description" content="Check out my portfolio for more information :)"/>
       </Helmet>
       <App />
     </>
