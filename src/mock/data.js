@@ -32,6 +32,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'barcrawlz.png',
+    title: 'BarCrawlz',
+    info:
+      "Full-stack React-in-Rails app with full CRUG functionality.  , Styled with ReactStrap and custom CSS. Uses YelpFusion API's business search endpoint. Capstone project for software development bootcamp.",
+    info2:
+      'Rails associations & a join table enables CRUD functionality & rails router enables RESTful routes. Deployed on Heroku.',
+    url: 'http://barcrawlz.herokuapp.com/',
+    repo: 'https://github.com/GiTiramisuPush/bar-crawlz', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'hotaliens.png',
     title: 'Alien Tinder',
     info:
