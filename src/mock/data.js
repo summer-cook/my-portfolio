@@ -35,9 +35,9 @@ export const projectsData = [
     img: 'barcrawlz.png',
     title: 'BarCrawlz',
     info:
-      "Full-stack React-in-Rails app with full CRUG functionality.  , Styled with ReactStrap and custom CSS. Uses YelpFusion API's business search endpoint. Capstone project for software development bootcamp.",
+      "Full-stack React-in-Rails app with full CRUD functionality. Styled with ReactStrap and custom CSS. Uses YelpFusion API's business search endpoint. Capstone project for software development bootcamp.",
     info2:
-      'Rails associations & a join table enables CRUD functionality & rails router enables RESTful routes. Deployed on Heroku.',
+      'Rails associations and a join table enable CRUD functionality & rails-router enables RESTful routes. Deployed on Heroku.',
     url: 'http://barcrawlz.herokuapp.com/',
     repo: 'https://github.com/GiTiramisuPush/bar-crawlz', // if no repo, the button will not show up
   },
