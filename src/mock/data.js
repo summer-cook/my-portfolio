@@ -32,10 +32,18 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'risingfromtheashes.png',
+    title: 'University of Tennessee Knoxville: Rising from the Ashes',
+    info: 'Rising from the Ashes documents the immediate and ongoing impacts of the 2016 Chimney Tops 2 wildfires, one of the largest natural disasters in Tennessee history. Jamstack app with React/Gatsby.js',
+    info2: '',
+    url: 'https://rfta.lib.utk.edu/',
+    repo: 'https://github.com/utkdigitalinitiatives/canopy', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'barcrawlz.png',
     title: 'BarCrawlz',
-    info:
-      "Full-stack React-in-Rails app with full CRUD functionality. Styled with ReactStrap and custom CSS. Uses YelpFusion API's business search endpoint. Capstone project for software development bootcamp.",
+    info: "Full-stack React-in-Rails app with full CRUD functionality. Styled with ReactStrap and custom CSS. Uses YelpFusion API's business search endpoint. Capstone project for software development bootcamp.",
     info2:
       'Rails associations and a join table enable CRUD functionality & rails-router enables RESTful routes. Deployed on Heroku.',
     url: 'http://barcrawlz.herokuapp.com/',
@@ -45,8 +53,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'hotaliens.png',
     title: 'Alien Tinder',
-    info:
-      'Full-stack app built with a React front-end and Ruby-on-Rails back-end, deployed on Heroku. Styled with bootstrap & custom CSS, graphics created on Canva.',
+    info: 'Full-stack app built with a React front-end and Ruby-on-Rails back-end, deployed on Heroku. Styled with bootstrap & custom CSS, graphics created on Canva.',
     info2:
       'CRUD functionality makes it possible to see, add, update, & delete alien "matches" from a database.',
     url: 'https://alien-tinder.herokuapp.com/',
@@ -66,8 +73,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Wildlife Tracker App',
-    info:
-      'Backend API built with Ruby-on-Rails. Allows the user to track sightings of endangered species of the Pacific Northwest region. Full CRUD functionality. ',
+    info: 'Backend API built with Ruby-on-Rails. Allows the user to track sightings of endangered species of the Pacific Northwest region. Full CRUD functionality. ',
     info2:
       'Includes tests for each RESTful route written with RSPEC. (This photo was taken by me in North Cascades National Park, and I found it fitting! ☺ )',
     url: 'https://github.com/summer-cook/wildlife-tracker-summer-cook',
@@ -81,16 +87,6 @@ export const projectsData = [
     info2:
       'Process included client interviews/current brand audit, photoshoots, social media aesthetics, web design with Squarespace and an integration with Square to provide increased brand cohesiveness.',
     url: 'https://www.bareandbee.com/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'monadella.png',
-    title: 'Monadella Investments Website',
-    info:
-      'Web design project for a Boutique Real Estate Syndication firm. Designed with Divi theme on Wordpress.',
-    info2: '',
-    url: 'https://monadellainvestments.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -124,6 +120,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/summer-cook',
+    },
+    {
+      id: nanoid(),
+      name: 'gitlab',
+      url: 'https://gitlab.com/summer-cook',
     },
   ],
 };
