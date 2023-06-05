@@ -30,9 +30,9 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  {
+    {
     id: nanoid(),
-    img: 'webstore.gif',
+    img: '',
     title: 'Scientist.com Webstore',
     info: "The Scientist.com Webstore will integrate with Scientist's rails API tp provide a customizable platform for suppliers to sell research services and wares to their consumers. App created with React/Next.js, component library created with Bootstrap and Storybook.",
     info2: '',

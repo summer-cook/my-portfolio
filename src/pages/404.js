@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,17 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { headData } from '../mock/data';
 import '../style/main.scss';
 
-export default () => {
+export default FourOhFour = () => {
   const { lang } = headData;
 
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Page not found</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content="Page not found" />
-      </Helmet>
       <section id="hero" className="jumbotron">
         <Container>
           <Fade bottom duration={1000} delay={500} distance="30px">
@@ -41,3 +34,12 @@ export default () => {
     </>
   );
 };
+
+export const Head = () => (
+  <>
+      <meta charSet="utf-8" />
+      <title>Page not found</title>
+      <html lang={lang || 'en'} />
+      <meta name="description" content="Page not found" />
+  </>
+)
