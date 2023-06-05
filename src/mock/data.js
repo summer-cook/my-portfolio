@@ -32,6 +32,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'webstore.gif',
+    title: 'Scientist.com Webstore',
+    info: "The Scientist.com Webstore will integrate with Scientist's rails API tp provide a customizable platform for suppliers to sell research services and wares to their consumers. App created with React/Next.js, component library created with Bootstrap and Storybook.",
+    info2: '',
+    repo: 'https://github.com/scientist-softserv/webstore',
+  },
+  {
+    id: nanoid(),
     img: 'risingfromtheashes.png',
     title: 'University of Tennessee Knoxville: Rising from the Ashes',
     info: 'Rising from the Ashes documents the immediate and ongoing impacts of the 2016 Chimney Tops 2 wildfires, one of the largest natural disasters in Tennessee history. Jamstack app with React/Gatsby.js',
@@ -46,7 +54,6 @@ export const projectsData = [
     info: "Full-stack React-in-Rails app with full CRUD functionality. Styled with ReactStrap and custom CSS. Uses YelpFusion API's business search endpoint. Capstone project for software development bootcamp.",
     info2:
       'Rails associations and a join table enable CRUD functionality & rails-router enables RESTful routes. Deployed on Heroku.',
-    url: 'http://barcrawlz.herokuapp.com/',
     repo: 'https://github.com/GiTiramisuPush/bar-crawlz', // if no repo, the button will not show up
   },
   {
@@ -56,7 +63,6 @@ export const projectsData = [
     info: 'Full-stack app built with a React front-end and Ruby-on-Rails back-end, deployed on Heroku. Styled with bootstrap & custom CSS, graphics created on Canva.',
     info2:
       'CRUD functionality makes it possible to see, add, update, & delete alien "matches" from a database.',
-    url: 'https://alien-tinder.herokuapp.com/',
     repo: 'https://github.com/summer-cook/alien-tinder', // if no repo, the button will not show up
   },
   {
@@ -76,8 +82,7 @@ export const projectsData = [
     info: 'Backend API built with Ruby-on-Rails. Allows the user to track sightings of endangered species of the Pacific Northwest region. Full CRUD functionality. ',
     info2:
       'Includes tests for each RESTful route written with RSPEC. (This photo was taken by me in North Cascades National Park, and I found it fitting! ☺ )',
-    url: 'https://github.com/summer-cook/wildlife-tracker-summer-cook',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/summer-cook/wildlife-tracker-summer-cook', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -101,16 +106,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
