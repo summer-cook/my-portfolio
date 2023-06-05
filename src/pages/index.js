@@ -5,7 +5,7 @@ import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
-export default () => {
+const Index = () => {
   const { lang } = headData;
 
   return (
@@ -21,4 +21,6 @@ export default () => {
       <App />
     </>
   );
-};
+}
+
+export default Index
