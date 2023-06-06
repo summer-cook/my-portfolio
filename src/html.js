@@ -17,8 +17,8 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <title>Summer Cook | Web Developer & Designer</title>
-        <meta name="title" property="og:title" content="Summer Cook | Web Developer & Designer"></meta>
+        <title>Summer Cook | Software Developer & Designer</title>
+        <meta name="title" property="og:title" content="Summer Cook | Software Developer & Designer"></meta>
         <html lang="en" />
         <meta name="description" property="og:description" content="Check out my portfolio for more information :)"/>
         <meta name="image" property="og:image" content="https://i.ibb.co/vjBS2Yw/summercookdev.png"/>
