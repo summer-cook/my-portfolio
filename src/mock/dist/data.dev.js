@@ -9,7 +9,7 @@ var _nanoid = require("nanoid");
 
 // HEAD DATA
 var headData = {
-  title: 'Summer Cook | Web Developer & Designer',
+  title: 'Summer Cook | Software Developer & Designer',
   // e.g: 'Name | Developer'
   lang: 'en',
   // e.g: en, es, fr, jp

@@ -20,11 +20,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'After years of working for marketing agencies and creating websites with templates, I realized I was always intrigued by code and felt driven to take my knowledge a step further.  I finally made the leap & committed to an immersive Full Stack Web Development bootcamp, LEARN Academy.',
+    'After years of working for marketing agencies and creating websites with templates, I realized I was always intrigued by code and felt driven to take my knowledge a step further. I finally made the leap & committed to an immersive software development bootcamp. I have now been working as a Full Stack Engineer for 2.5 years, and am so happy to be part of an industry where continual learning is not only desirable, but it is inevitable.',
   paragraphTwo:
-    'My favorite things about being a developer are the constant opportunity to push the limits of my knowledge & the ability to learn something unique every day. I have worked in client-facing roles, and I know the importance of delivering results that captivate the end user. My branding and design background drives my interest in creating satisfying user experiences & beautifying the front end of applications.',
+    'My favorite things about being a developer are the constant opportunity to push the limits of my knowledge & the ability to learn something unique every day. I have worked in client-facing roles, and I know the importance of delivering results that captivate the end user. My branding and design background drives my interest in creating satisfying, intuitive user experiences & beautifying the front end of applications.',
   paragraphThree:
-    ' My dream is to keep learning & growing as a developer by applying my knowledge in a challenging, collaborative role at a company that supports continual growth. Feel free to reach out to me to connect! ',
+    'My dream is to keep growing as a developer by applying my knowledge in a challenging, collaborative role at a company that supports professional growth. Feel free to reach out to me to connect!',
   resume: '/SummerCookDeveloper.pdf', // if no resume, the button will not show up
 };
 
